@@ -26,7 +26,7 @@ html {
 header {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(./img/Evans.jpeg) center/cover no-repeat fixed;
+    url(./img/Evans.jpg) center/cover no-repeat fixed;
 }
 
 ul {
@@ -472,10 +472,23 @@ main {
   color: hsl(205, 78%, 60%);
 }
 
+/* **************NEWS************** */
+.news {
+  background: linear-gradient(to right, #9198e5, #3f87a6);
+}
+
+/* **************SUPPORT************** */
+.support {
+  border-top: 2px solid red;
+
+  background-color: hsl(204, 92%, 10%);
+}
+
 /* **********FOOTER SECTION*********** */
 
 .footer {
   background-color: hsl(204, 92%, 10%);
   color: #fff;
   padding: 1rem;
+  border-top: 1px solid rgb(197, 190, 190);
 }
